@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.casopratico2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.casopratico2.PublicoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.casopratico2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.Gravador"
+            android:label="Gravador" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.Reprodutor"
+            android:label="Reprodutor" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.TsfTitulos"
+            android:label="TsfTitulos" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.TsfNoticiaActivity"
+            android:label="TsfNoticiaActivity" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.Correio"
+            android:label="Correio" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.CTitulos"
+            android:label="CTitulos" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.CNoticiaActivity"
+            android:label="CNoticiaActivity" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.PTitulos"
+            android:label="PTitulos" >
+        </activity>
+        <activity
+            android:name="com.example.casopratico2.PNoticiaActivity"
+            android:label="PNoticiaActivity" >
+        </activity>
+
+        <provider
+            android:name="PFeedsProvider"
+            android:authorities="blog.masterd.pt" />
+        <provider
+            android:name="CFeedsProvider"
+            android:authorities="www.cmjornal.xl.pt" />
+        <provider
+            android:name="TSFFeedsProvider"
+            android:authorities="feeds.tsf.pt" />
+    </application>
+
+</manifest>

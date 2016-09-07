@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2º Caso Prático</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="act1">Gravador</string>
+    <string name="act2">Público</string>
+    <string name="act3">TSF</string>
+    <string name="act4">Correio da Manhã</string>
+    <string name="fechar">Fechar</string>
+    <string name="proximidade">Ativa o sensor de Proximidade</string>
+    <string name="reproduzir">Reproduzir</string>
+    <string name="agravar">A gravar do microfone</string>
+    <string name="abana">Abana-me</string>
+    <string name="traco">-</string>
+    <string name="nao_ha_feeds">No articles</string>
+    <string name="a_carregar">Loading...</string>
+
+</resources>

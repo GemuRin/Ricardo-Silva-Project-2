@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/act1"
+        android:icon="@drawable/gravador"
+        android:showAsAction="always|withText"
+        android:title="@string/act1" />
+    <item
+        android:id="@+id/act2"
+        android:icon="@drawable/publico"
+        android:showAsAction="always|withText"
+        android:title="@string/act2" />
+    <item
+        android:id="@+id/act3"
+        android:icon="@drawable/tsf"
+        android:showAsAction="always|withText"
+        android:title="@string/act3" />
+    <item
+        android:id="@+id/act4"
+        android:icon="@drawable/correio"
+        android:showAsAction="always|withText"
+        android:title="@string/act4" />
+
+    
+    
+
+</menu>
